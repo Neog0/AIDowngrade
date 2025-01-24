@@ -4,10 +4,10 @@ import torch
 
 # Lazy model loading to reduce memory usage
 def load_model():
-    tokenizer = AutoTokenizer.from_pretrained("microsoft/DialoGPT-small")
-    model = AutoModelForCausalLM.from_pretrained("microsoft/DialoGPT-small")
+    tokenizer = AutoTokenizer.from_pretrained("distilgpt2")
+    model = AutoModelForCausalLM.from_pretrained("distilgpt2")
     tokenizer.padding_side = "left"
-    return tokenizer, model
+    return tokenizer, modell
 
 app = Flask(__name__)
 
