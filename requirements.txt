@@ -2,5 +2,3 @@ flask==3.1.0
 transformers==4.48.1
 torch==2.0.1
 gunicorn==23.0.0
-tokenizers==0.21.0
-blinker==1.9.0
